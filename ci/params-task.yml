@@ -1,0 +1,19 @@
+platform: linux
+
+image_resource:
+  type: registry-image
+  source:
+    repository: alpine
+
+params:                         
+  GREETING: default
+  NAME: user
+
+run:
+  path: sh
+  args:
+    - -exc
+    - |
+      echo "GREETING: $GREETING"
+      echo "NAME: $NAME"
+      echo "$GREETING, $NAME!"
