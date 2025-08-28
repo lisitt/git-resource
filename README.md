@@ -1,4 +1,4 @@
-# Git Resource - test1
+# Git Resource - test2
 
 Tracks the commits in a [git](http://git-scm.com/) repository.
 
