@@ -17,3 +17,4 @@ run:
       echo "GREETING: $GREETING"
       echo "NAME: $NAME"
       echo "$GREETING, $NAME!"
+      echo "Current date and time:"  date
